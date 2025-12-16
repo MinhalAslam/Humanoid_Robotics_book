@@ -1,0 +1,13 @@
+rclpy>=3.0.0
+opencv-python>=4.5.0
+numpy>=1.21.0
+torch>=1.12.0
+transformers>=4.20.0
+openai-whisper
+speechrecognition
+cv-bridge
+geometry-msgs
+sensor-msgs
+std-msgs
+builtin-interfaces
+setuptools

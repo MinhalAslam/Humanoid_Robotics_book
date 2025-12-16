@@ -1,0 +1,22 @@
+[project]
+name = "physical_ai_robot"
+version = "0.1.0"
+description = "Physical AI & Humanoid Robotics System"
+authors = [{name = "Physical AI Team", email = "team@physicalai.example.com"}]
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = [
+    "rclpy>=3.0.0",
+    "opencv-python>=4.5.0",
+    "numpy>=1.21.0",
+    "torch>=1.12.0",
+    "transformers>=4.20.0",
+    "openai-whisper",
+    "gymnasium",
+    "stable-baselines3",
+    "nvidia-isaac-gym",
+]
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
